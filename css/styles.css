@@ -1,0 +1,99 @@
+:root {
+    --hero-text-color: #ffffff;
+    --accent-color: #4D5AE5;
+    --primary-text-color: #2E2F42;
+    --subsidiary-text-color: #434455;
+    --button-nav-color: #F4F4FD;
+    --button-nav-active-text-color: #ffffff;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+/* logo */
+.logo-head {
+    color: var(--primary-text-color)
+}
+
+.web {
+    color: var(--accent-color)
+}
+
+/* site nav */
+ul {
+    list-style: none;
+}
+
+.site-nav a {
+    color: var(--primary-text-color)
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color)
+}
+
+.site-nav a.current {
+    color: var(--accent-color)
+}
+
+.address-nav a {
+    color: var(--subsidiary-text-color)
+}
+
+.address-nav a:hover,
+.address-nav a:focus {
+    color: var(--accent-color)
+}
+
+/* Hero */
+.hero {
+    background-color: #2E2F42;
+    color: var(--hero-text-color)
+}
+
+.button-action {
+    background-color: #4D5AE5;
+    color: var(--hero-text-color)
+}
+
+/* Section team */
+.team-list {
+    background-color: #F4F4FD
+}
+
+h2,
+h3 {
+    color: var(--primary-text-color)
+}
+
+p {
+    color: var(--subsidiary-text-color)
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer p {
+    color: #E7E9FC
+}
+
+.logo-foot {
+    color: #F4F4FD
+}
+
+/* Portfolio page */
+
+.button-nav {
+    background-color: var(--button-nav-color);
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.button-nav:hover {
+    background-color: var(--accent-color);
+    color: var(--button-nav-active-text-color);
+}
