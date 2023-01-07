@@ -3,8 +3,8 @@
     --accent-color: #4D5AE5;
     --primary-text-color: #2E2F42;
     --subsidiary-text-color: #434455;
-    --button-nav-color: #F4F4FD;
-    --button-nav-active-text-color: #ffffff;
+    --button-text-color: #ffffff;
+    --button-click-color: #404BBF;
 }
 
 
@@ -30,21 +30,21 @@ ul {
     color: var(--primary-text-color)
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: var(--accent-color)
 }
 
-.site-nav a.current {
+.site-nav .link.current {
     color: var(--accent-color)
 }
 
-.address-nav a {
+.address-nav .link {
     color: var(--subsidiary-text-color)
 }
 
-.address-nav a:hover,
-.address-nav a:focus {
+.address-nav .link:hover,
+.address-nav .link:focus {
     color: var(--accent-color)
 }
 
@@ -56,8 +56,10 @@ ul {
 
 .button-action {
     background-color: #4D5AE5;
-    color: var(--hero-text-color)
+    color: var(--button-text-color);
+    cursor: pointer;
 }
+
 
 /* Section team */
 .team-list {
@@ -69,7 +71,7 @@ h3 {
     color: var(--primary-text-color)
 }
 
-p {
+.text {
     color: var(--subsidiary-text-color)
 }
 
@@ -77,12 +79,17 @@ p {
     background-color: #2E2F42;
 }
 
-.footer p {
+.footer .text {
     color: #E7E9FC
 }
 
-.logo-foot {
+.logo-foot.link {
     color: #F4F4FD
+}
+
+.logo-foot.link:hover,
+.logo-foot.link:focus {
+    color: var(--accent-color);
 }
 
 /* Portfolio page */
