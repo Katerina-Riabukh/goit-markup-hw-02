@@ -241,7 +241,8 @@ body {
     cursor: pointer;
 }
 
-.button-nav:hover {
+.button-nav:hover,
+.button-nav:focus {
     background-color: var(--accent-color);
     color: var(--button-text-color);
 }
